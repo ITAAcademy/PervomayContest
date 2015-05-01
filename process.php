@@ -6,5 +6,14 @@
  */
 
     $username = $_GET['username'];
-    echo "Hello $username";
+	if(!empty($username))
+	{
+		echo "Hello $username";
+	}
+    else
+	{
+		echo "You don't input name";
+	}
+		
+	
 ?>
