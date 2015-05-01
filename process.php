@@ -4,7 +4,12 @@
  * @author Ita Akademy
  * @copyright 2015
  */
-
-    $username = $_GET['username'];
-    echo "Hello $username";
+	if(!empty($_GET['username']))
+	{
+		$username = $_GET['username'];
+	}
+	
+  
+    echo "Hello  $username";
+	echo "</br><a href='index.php'>Beck</a>"
 ?>
