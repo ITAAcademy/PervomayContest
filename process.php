@@ -4,11 +4,9 @@
  * @author Ita Akademy
  * @copyright 2015
  */
-
-
-    $username = $_GET['username'];
-	if(!empty($username))
+	if(!empty($_GET['username']))
 	{
+		$username = $_GET['username'];
 		echo "Hello $username";
 	}
     else
