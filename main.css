@@ -12,6 +12,8 @@ text-align:center;
 {
 	background: green;
 	border-radius:5px;
+	color:yellow;
+	border:2px solid yellow;
 }
 .input_form
 {
