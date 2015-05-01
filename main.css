@@ -2,8 +2,14 @@
 {
     width: 200px;
 }
+
 .submit_input
 {
 	background: green;
 	border-radius:5px;
+}
+.input_form
+{
+	text-align: center;
+
 }
