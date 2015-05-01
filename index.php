@@ -3,17 +3,11 @@
 <link href="main.css" rel="stylesheet"/>
 </head>
 <body>
-<?php
-
-/**
- * @author Ita Akademy
- * @copyright 2015
- */
-
+<div class="hello">
+<?php 
 echo "Hello World!";
-
 ?>
-
+</div>
 <form>
 <input type="text" class="text_input"/>
 </form>
