@@ -1,19 +1,15 @@
+.hello,.input_form
+{
+	text-align:center;
+}
+
 .text_input
 {
     width: 200px;
 }
 
-.hello
-{
-text-align:center;
-}
-
 .submit_input
 {
 	background: green;
-	border-radius:5px;
-}
-.input_form
-{
-	text-align: center;
+	border-radius: 5px;
 }
