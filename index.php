@@ -1,3 +1,8 @@
+<html>
+<head>
+<link href="main.css" rel="stylesheet"/>
+</head>
+<body>
 <?php
 
 /**
@@ -8,3 +13,9 @@
 echo "Hello World!";
 
 ?>
+
+<form>
+<input type="text" class="text_input"/>
+</form>
+</body>
+</html>
